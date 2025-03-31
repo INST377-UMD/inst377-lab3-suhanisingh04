@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.headerFooter {
+    text-align: center;
+    color: white;
+    background-color: turquoise;
+}
+
+nav {
+    background-color: violet;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.bodyContent {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mainContent {
+    width: 70%;
+    background-color: aquamarine;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#name {
+    width: 100px;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+#name:focus {
+    width: 200px;
+    transition: width 0.3s;
+}
+
+#choice {
+    width: 100px;
+    padding: 8px;
+}
+
+#submit {
+    width: 100px;
+    padding: 10px;
+    border: none;
+}
+
+#submit:hover {
+    background-color: pink;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: paleturquoise;
+}
+
+.sidebar h2 {
+    text-decoration: underline;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+.sidebar ul li {
+    margin: 5px 0;
+}
+
+.sidebar:hover {
+    background-color: lightpink;
+}
+
+body, .headerFooter, nav, .mainContent, .sidebar {
+    padding: 20px;
+    margin: 10px;
+}
